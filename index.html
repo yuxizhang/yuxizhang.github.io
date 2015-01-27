@@ -199,7 +199,6 @@
                        <h4 style="padding:0 0 10px 0">Computer-GO AI</h4>
                        <p class="text-muted" style="text-align:right; line-height:120%"> <small> Artificial Intelligence Course<br> Shanghai Jiao Tong University </small></p>
                    </div>
-
                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                        <div class="portfolio-hover">
                            <div class="portfolio-hover-content">
@@ -210,7 +209,51 @@
 
                     </a>
                 </div>
-                  
+                <div class="col-lg-12 text-center">
+                    <h3 style="text-align:left">Other Projects</h3>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <div class="portfolio-caption">
+                        <h4 style="padding:0 0 10px 0">Ocean Scream AI</h4>
+                        <p class="text-muted" style="text-align:right; line-height:120%"> <small> Beauty of Programming Contest, Preliminaries<br> Microsoft Research Asia </small></p>
+                    </div>
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="project/ocean/ocean.png" class="img-responsive" alt="" style="width:100%">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <div class="portfolio-caption">
+                        <h4 style="padding:0 0 10px 0">Word Cloud</h4>
+                        <p class="text-muted" style="text-align:right; line-height:120%"> <small> Beauty of Programming Contest, Final<br> Microsoft Research Asia </small></p>
+                    </div>
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="project/wordcloud/wordcloud.png" class="img-responsive" alt="" style="width:100%">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <div class="portfolio-caption">
+                        <h4 style="padding:0 0 10px 0">Game of Life Simulation</h4>
+                        <p class="text-muted" style="text-align:right; line-height:120%"> <small>Personal Interest <br> Motivated by "The Grand Design"</small></p>
+                    </div>
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="project/lifegame/lifegame.png" class="img-responsive" alt="" style="width:100%">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -688,13 +731,119 @@
                                 <li>Purpose: Design an AI program for Computer-GO game.</li>
                                 <li>Algorithms: Min-Max search, &alpha;-&beta; cut, Upper bound for Confidence Tree (UCT), <strong>Statistical Evaluation on Random Simulation (SERS)</strong></li>
                                 
-                                <li>Implement Platform &amp; Language: <a href="http://gogui.sourceforge.net/">GOGUI</a>, C++</li>
-                                <li>Demo: This demo shows two versions of our AI programs, SERS version vs. Min-Max search version, playing with each other. <br> &nbsp;</li>
+                                <li>Implement Platform &amp; Language: <a href="http://gogui.sourceforge.net/">GOGUI</a>, C</li>
+                                <li>Demo: This demo shows two versions of our AI programs, SERS version (white) vs. Min-Max search version (black), playing with each other. <br> &nbsp;</li>
                                 <div style="text-align: center">
                                     <video controls style="width:600px" src="project/AI/go.mp4"></video>
                                 </div>
                                 &nbsp; <br>
                                 <li>Introduction to SERS: This is an original algorithm designed by our group. This algorithm combines the advantanges of Min-Max search and UCT and meanwhile avoids their defects. For each step, this algorithm firstly randomly plays several steps and evaluates the situation with a cost function. Afther a large quantity of random simulations, it finally picks the step with the best evaluation results. We perform simulations on a confidence tree and use &alpha;-&beta; cut to accelerate the searching speed. </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Ocean Stream AI</h3>
+                            <ul class="text-muted">
+                                <li>Time: Spring 2012, Freshman year
+                                <li>Contest: Beauty of Programming, Preliminaries</li>
+                                <li>Institute: Microsoft Asia</li>
+                                <li>Independent Project</li>
+                                <li>Implement Language: C++</li>
+                                <li>Platform Introduction: <a href="https://onedrive.live.com/?cid=7ff2a132e06dc8e0&id=7FF2A132E06DC8E0%21291">[LINK]</a></li>
+                                <li>Demo: These two replays are two real battles in the preliminary round. "Wings_V2.2" in light purple is my AI program.. <br> &nbsp;</li>
+                                <div style="text-align: center">
+                                    <video controls style="width:600px" src="project/ocean/ocean1.mp4"></video>
+                                </div>
+                                <br>
+                                <div style="text-align: center">
+                                    <video controls style="width:600px" src="project/ocean/ocean2.mp4"></video>
+                                </div>
+
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Word Cloud</h3>
+                            <ul class="text-muted">
+                                <li>Time: Spring 2012, Freshman year
+                                <li>Contest: Beauty of Programming, Final</li>
+                                <li>Institute: Microsoft Asia</li>
+                                <li>Other Group Member: Qiutao Zhuang</li>
+                                <li>Implement Language: C#</li>
+                                <li>Purpose: This project aims to present words in a cloud form according to their frequencies. The word with high frequency has the large size.</li>
+                                <li>Demo: This demo shows the word clouds of two sample inputs with words and their frequencies. It also provides a search function, which enables user to highlight some words. <br> &nbsp;</li>
+                                <div style="text-align: center">
+                                    <video controls style="width:600px" src="project/wordcloud/wordcloud.mp4"></video>
+                                </div>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Game of Life Simulation</h3>
+                            <ul class="text-muted">
+                                <li>Time: Spring 2012, Freshman year
+                                <li>Motivation: Inspired  by <i>The Grand Design</i> written by Stephen Hawking and Leonard Mlodinow</li>
+                                <li>Introduction: <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">Wikipedia</a></li>
+                                <li>Implement Language: C++</li>
+                                <li>Game Engine: <a href="http://hge.relishgames.com/">Haaf's Game Engine</a></li>
+                                <li>Demo: This demo starts with a random initial state. <br> &nbsp;</li>
+                                <div style="text-align: center">
+                                    <video controls style="width:600px" src="project/lifegame/lifegame.mp4"></video>
+                                </div>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
                         </div>
