@@ -57,11 +57,11 @@
                     <li>
                         <a class="page-scroll" href="#introduction">Introduction</a>
                     </li>
-                    <li> <a class="page-scroll" href="#portfolio">Research</a></li>
-                    <li> <a class="page-scroll" href="#projects">Project</a></li>
+                    <!-- <li> <a class="page-scroll" href="#portfolio">Research</a></li> -->
+                    <li> <a class="page-scroll" href="#projects">Projects</a></li>
                     <li>
                         <a class="page-scroll" href="#about">Experience</a>
-                    </li>
+                    </li>			
                     <!-- <li>
                         <a class="page-scroll" href="#Miscellanea">Miscellanea</a>
                     </li> -->
@@ -100,22 +100,22 @@
 
                     <p class="body-text"> I got my Bachelor's degree from <a href="http://english.seiee.sjtu.edu.cn/english/info/8338.htm"> IEEE Honor Class </a> in Shanghai Jiao Tong University. My primary major is Computer Science & Technology and affiliated minor is Information Engineering. In addition, I also got a second major in Musicology. </p>
 					
-					<p class="body-text"> I am interested in Artificial Intelligence, Computer Vision and Robotics. I have done several <a class="page-scroll" href="#portfolio"> research projects </a> in these areas during my undergraduate study. I am also enthusiastic about Game-Making. I have made a Virtual Reality Quidditch Game using Oculus and Leap Motion.</p>
+					<p class="body-text"> I am interested in Artificial Intelligence, Computer Vision and Robotics. I have done several <a class="page-scroll" href="#research"> research projects </a> in these areas during my undergraduate study. I am also enthusiastic about Game-Making. I have made a <a class="page-scroll" href="#game">  Virtual Reality Quidditch Game </a> using Oculus and Leap Motion.</p>
 
             </div>
         </div>
     </section>
 
     <!-- Research Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <!-- <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Research</h2>
-                    <!-- <h3 style="text-align:left"> Research interests</h3>
+                    <h3 style="text-align:left"> Research interests</h3>
                     <p class="body-text">My research interests include Artificial Intelligence, Computer Vision and Robotics. </p>
                     <p class="body-text">My ultimate research goal is to design <em>strong</em> artificial intelligence. I want to approach this purpose through understanding principle of brain operation. Also, I am very interested in applications of machine learning methods, a more practical field. I have a strong willing to apply machine learning methods to analyzing neural signals and recognizing human thoughts, which sounds like magic. In addition, music is my avocation, in which I also want to use machine learning methods to extract meaningful information. </p>
-                    <p class="body-text">I am now in <a href="http://vcla.stat.ucla.edu/"> VCLA Lab</a>, working on SIMPLEX Robotics project. I am advised by Prof. <a href="http://www.stat.ucla.edu/~sczhu/"> Songchun Zhu. </a></p> -->
+                    <p class="body-text">I am now in <a href="http://vcla.stat.ucla.edu/"> VCLA Lab</a>, working on SIMPLEX Robotics project. I am advised by Prof. <a href="http://www.stat.ucla.edu/~sczhu/"> Songchun Zhu. </a></p>
                 </div>
             </div>
             <div class="row">
@@ -152,10 +152,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Projects Grid Section -->
-    <section id="projects">
+    <section id="projects" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -166,9 +166,107 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 style="text-align:left"> Course Projects</h3>
+                <div class="col-lg-12 text-center" id="game">
+                    <h3 style="text-align:left"> Game Projects</h3>
                 </div>
+
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                   <div class="portfolio-caption">
+                       <h4 style="padding:0 0 10px 0">Virtual Reality Quidditch Game</h4>
+                       <p class="text-muted" style="text-align:right; line-height:120%"> <font style="font-size:12px;"> Advanced Game Dev't for Virtual Reality Course Project </font><br>  <small> University of California, Los Angeles </small> </p>
+                   </div>
+                   <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                       <div class="portfolio-hover">
+                           <div class="portfolio-hover-content">
+                               <i class="fa fa-plus fa-3x"></i>
+                           </div>
+                       </div>
+                       <img src="project/Quidditch/Quidditch.png" class="img-responsive" alt="" style="width:100%">
+                    </a>
+                </div>
+                
+               <div class="col-md-6 col-sm-6 portfolio-item">
+                   <div class="portfolio-caption">
+                       <h4 style="padding:0 0 10px 0">Computer-GO Game AI</h4>
+                       <p class="text-muted" style="text-align:right; line-height:120%"> <small> Artificial Intelligence Course Project<br> Shanghai Jiao Tong University </small></p>
+                   </div>
+                   <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                       <div class="portfolio-hover">
+                           <div class="portfolio-hover-content">
+                               <i class="fa fa-plus fa-3x"></i>
+                           </div>
+                       </div>
+                       <img src="project/AI/go.png" class="img-responsive" alt="" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <div class="portfolio-caption">
+                        <h4 style="padding:0 0 10px 0">Ocean Scream Game AI</h4>
+                        <p class="text-muted" style="text-align:right; line-height:120%"> <small> Beauty of Programming Contest, Preliminaries<br> Microsoft Research Asia </small></p>
+                    </div>
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="project/ocean/ocean.png" class="img-responsive" alt="" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <div class="portfolio-caption">
+                        <h4 style="padding:0 0 10px 0">Conway's Game of Life</h4>
+                        <p class="text-muted" style="text-align:right; line-height:120%"> <small>Personal Interest <br> Motivated by "The Grand Design"</small></p>
+                    </div>
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="project/lifegame/lifegame.png" class="img-responsive" alt="" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="col-lg-12 text-center" id="research">
+                    <h3 style="text-align:left">Research Projects</h3>
+                </div>
+
+				<div class="col-md-6 col-sm-6 portfolio-item">
+					<div class="portfolio-caption">
+                        <h4 style="padding:0 0 10px 0">Mining Human Mobility Patterns from GPS trajectory data</h4>
+                        <p class="text-muted" style="text-align:right; line-height:120%"><small>Big Data &amp; Business Innovation Lab<br> Shanghai Jiao Tong University</small></p>
+                    </div>
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="research/mobility/mobility.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                	<div class="portfolio-caption">
+                        <h4 style="padding:0 0 10px 0">Sonification of EEG signals in Brain-Computer Interface</h4>
+                        <p class="text-muted" style="text-align:right; line-height:120%"> <small> Brain-like Computing &amp; Machine Intelligence Lab<br> Shanghai Jiao Tong University </small></p>
+                    </div>
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="research/sonification/sonification.png" class="img-responsive" alt="" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="col-lg-12 text-center">
+                    <h3 style="text-align:left">Other Projects</h3>
+                </div>
+                
                 <div class="col-md-6 col-sm-6 portfolio-item">
                     <div class="portfolio-caption">
                         <h4 style="padding:0 0 10px 0">Pitch Recognizer &amp; Virtual Instrument </h4>
@@ -183,39 +281,7 @@
                         <img src="project/DSP/prvi.PNG" class="img-responsive" alt="">
                     </a>
                 </div>
-                
-               <div class="col-md-6 col-sm-6 portfolio-item">
-                   <div class="portfolio-caption">
-                       <h4 style="padding:0 0 10px 0">Computer-GO AI</h4>
-                       <p class="text-muted" style="text-align:right; line-height:120%"> <small> Artificial Intelligence Course<br> Shanghai Jiao Tong University </small></p>
-                   </div>
-                   <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                       <div class="portfolio-hover">
-                           <div class="portfolio-hover-content">
-                               <i class="fa fa-plus fa-3x"></i>
-                           </div>
-                       </div>
-                       <img src="project/AI/go.png" class="img-responsive" alt="" style="width:100%">
 
-                    </a>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <h3 style="text-align:left">Other Projects</h3>
-                </div>
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <div class="portfolio-caption">
-                        <h4 style="padding:0 0 10px 0">Ocean Scream AI</h4>
-                        <p class="text-muted" style="text-align:right; line-height:120%"> <small> Beauty of Programming Contest, Preliminaries<br> Microsoft Research Asia </small></p>
-                    </div>
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="project/ocean/ocean.png" class="img-responsive" alt="" style="width:100%">
-                    </a>
-                </div>
                 <div class="col-md-6 col-sm-6 portfolio-item">
                     <div class="portfolio-caption">
                         <h4 style="padding:0 0 10px 0">Word Cloud</h4>
@@ -230,22 +296,7 @@
                         <img src="project/wordcloud/wordcloud.png" class="img-responsive" alt="" style="width:100%">
                     </a>
                 </div>
-                <!--
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <div class="portfolio-caption">
-                        <h4 style="padding:0 0 10px 0">Game of Life Simulation</h4>
-                        <p class="text-muted" style="text-align:right; line-height:120%"> <small>Personal Interest <br> Motivated by "The Grand Design"</small></p>
-                    </div>
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="project/lifegame/lifegame.png" class="img-responsive" alt="" style="width:100%">
-                    </a>
-                </div>
-                -->
+                
             </div>
         </div>
     </section>
@@ -330,7 +381,7 @@
                 	<h3 style="text-align:center"> Other Experiences</h3> <br/>
                     <ul class="timeline">
 
-                        <li class="timeline-inverted">
+                        <li>
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/logos/microsoft.jpg" alt="">
                             </div>
@@ -350,7 +401,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/logos/bigdata.bmp" alt="">
                             </div>
@@ -363,7 +414,7 @@
                                     <ul class="text-muted">
                                     	<li>Project: Discovering Human Mobility Patterns</li>
                                         <li>Adviser: Ya Zhang</li>
-                                        <!--<li>Purpose: Classifying different types of drivers and mining their mobility patterns--->
+                                        <!--<li>Purpose: Classifying different types of drivers and mining their mobility patterns-->
                                         <li>Model: Temporal-Spatial Latent Dirichlet Allocation(TS-LDA)</li>
                                         <li>Implement languages: C++, Matlab</li>
                                         <li>Paper: Mobility Pattern Discovery from Automobile Traces with A Temporal Spatial Model.  <a href="pdf/Mobility.pdf" target="_blank">[PDF]</a></li>
@@ -371,7 +422,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li>
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/logos/bcmi.png" alt="">
                             </div>
@@ -392,7 +443,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/logos/comap.gif" alt="">
                             </div>
@@ -570,9 +621,9 @@
                         </div>
                     </form>
                 </div>
-            </div> -->
+            </div>
         </div>
-    </section>
+    </section> --> 
 <!--
     <footer>
         <div class="container">
@@ -847,7 +898,7 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 7 
+     <!-- Portfolio Modal 7  -->
     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -860,7 +911,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h3>Game of Life Simulation</h3>
+                            <h3>Conway's Game of Life</h3>
                             <ul class="text-muted">
                                 <li>Time: Spring 2012, Freshman year
                                 <li>Motivation: Inspired  by <i>The Grand Design</i> written by Stephen Hawking and Leonard Mlodinow</li>
@@ -879,7 +930,44 @@
             </div>
         </div>
     </div>
-    -->
+
+     <!-- Portfolio Modal 8  -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Virtual Reality Quidditch Game</h3>
+                            <ul class="text-muted">
+                                <li>Time: Fall 2015
+                                <li>Course: Advanced Game Development for Virtual Reality (CS188-1), UCLA</li>
+                                <li>Lecturer: Diana Ford</li>
+                                <li>Individual Project</li>
+                                <li>Devices: Oculus Rift DK2, Leap Motion</li>
+                                <li>Development Engine: Unreal Engine 4.9</li>
+                                
+                                <li>Presentation demo is upcoming soon <br> &nbsp;</li>
+                               <!--  <div style="text-align: center">
+                                    <video controls style="width:600px" src="project/AI/go.mp4"></video>
+                                </div>
+                                &nbsp; <br> -->
+                               
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
