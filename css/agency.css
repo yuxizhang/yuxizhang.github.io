@@ -62,10 +62,16 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
 
 .img-centered {
     margin: 0 auto;
